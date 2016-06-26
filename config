@@ -1,0 +1,9 @@
+JAVA='pathToJava/bin/java'
+PICARD="$JAVA -Xmx8G -jar pathToPicard/picard.jar"
+BWA='pathToBwa/bwa'
+GATK="$JAVA -jar pathToGATK/GenomeAnalysisTK.jar"
+GATKCP="$JAVA -cp pathToGATK/GenomeAnalysisTK.jar"
+SAMTOOLS='pathToSamtools/samtools'
+
+REFERENCEDIR='pathToReference/hg19'
+
